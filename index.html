@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.google.com/specimen/Savate" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BD T-shirts | Poroto'products U</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Poroto's products U</h1>
+</header>
+
+<main class="product-detail">
+  <div class="product-info">
+    <h2>BD T-shirts</h2>
+    <p class="price">¥620</p>
+    <p class="description">Aoi is not blueの誕生日限定販売Tシャツ。
+        <br>後ろから見ても可愛い着回し力バツグンのプロダクト。
+    </p>
+    <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>写真スライドショー</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slideshow-container">
+    <img id="slide-image" src="images/S__45211653_0.jpg" alt="スライド画像" width="600">
+    <button class="prev" onclick="changeSlide(-1)">←</button>
+    <button class="next" onclick="changeSlide(1)">→</button>
+
+  </div>
+  
+  <!-- 中に直接書くときは src は使わない！ -->
+  <script>
+  const images = [
+    "images/S__45211653_0.jpg",
+    "images/S__45211655_0.jpg",
+    "images/S__45211656_0.jpg",
+    "images/S__45211657_0.jpg",
+    "images/S__45211658_0.jpg",
+    "images/S__45211660_0.jpg",
+    "images/S__45211650_0.jpg"
+  ];
+  
+  let currentIndex = 0;
+  
+  function changeSlide(direction) {
+    currentIndex += direction;
+  
+    if (currentIndex < 0) {
+      currentIndex = images.length - 1;
+    } else if (currentIndex >= images.length) {
+      currentIndex = 0;
+    }
+  
+    document.getElementById("slide-image").src = images[currentIndex];
+  }
+  </script>  
+  
+</body>
+</html>
+
+
+    <form class="options-form">
+      <label for="color">カラー：</label>
+      <select id="color" name="color">
+        <option value="white">ホワイト</option>
+        <option value="black">ブラック</option>
+        <option value="blue">ブルー</option>
+      </select>
+
+      <label for="size">サイズ：</label>
+      <select id="size" name="size">
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+
+      <button type="button" class="buy-button">カートに入れる</button>
+    </form>
+  </div>
+</main>
+
+</body>
+</html>
+
+

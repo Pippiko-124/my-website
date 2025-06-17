@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    max-width: 400px;
+  }
+  
+  .product-info h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .price {
+    color: #e91e63;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .options-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .options-form select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .buy-button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: #c2185b;
+  }
+  
+  @media (max-width: 768px) {
+    .product-detail {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-info {
+      text-align: center;
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    width: 400px;
+    margin: 50px auto;
+  }
+  
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+  
+  button:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  h1{
+    font-family: 'Savate', serif;
+  }
+  h2 {
+    font-family: 'Playfair Display', serif;
+  }
+  
